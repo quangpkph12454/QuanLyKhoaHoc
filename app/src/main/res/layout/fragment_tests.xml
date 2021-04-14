@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:textSize="20dp"
+                android:text="Ngày"
+                android:layout_width="82dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:paddingTop="15dp"
+                android:textSize="20dp"
+                android:text="Mã Môn"
+                android:layout_width="82dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:paddingTop="15dp"
+                android:textSize="20dp"
+                android:text="Môn Học"
+                android:layout_width="82dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:textSize="20dp"
+                android:text="Lớp"
+                android:layout_width="82dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:paddingLeft="10dp"
+                android:textSize="20dp"
+                android:text="Thời Gian"
+                android:layout_width="82dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <ListView
+            android:layout_marginTop="8dp"
+            android:id="@+id/lvLichHoc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</FrameLayout>

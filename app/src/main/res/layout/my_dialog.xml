@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_marginLeft="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <TextView
+            android:text="Mã môn học:"
+            android:paddingTop="5dp"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:paddingTop="5dp"
+            android:id="@+id/tvMaMonHocTT"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <TextView
+            android:text="Môn học:"
+            android:paddingTop="5dp"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:paddingTop="5dp"
+            android:id="@+id/tvMonHocTT"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <TextView
+            android:text="Ngày tháng:"
+            android:paddingTop="5dp"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:paddingTop="5dp"
+            android:id="@+id/tvNgayThangTT"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <TextView
+            android:text="Thời gian:"
+            android:paddingTop="5dp"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:paddingTop="5dp"
+            android:id="@+id/tvThoiGianTT"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <TextView
+            android:text="Lớp học:"
+            android:paddingTop="5dp"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:paddingTop="5dp"
+            android:id="@+id/tvLopTT"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>

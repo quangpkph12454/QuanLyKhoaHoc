@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Phongvvph12450Assigment</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="facebook_app_id">266512551409412</string>
+    <string name="fb_login_protocol_scheme">fb266512551409412</string>
+
+
+    <string name="title_activity_course">CourseActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
